@@ -237,7 +237,7 @@ export default function OntologyGraph({
 
     svg.call(zoom);
     zoomBehaviorRef.current = zoom;
-  }, []);
+  }, [simNodes.length > 0]);
 
   const handleZoomIn = () => {
     if (!svgRef.current || !zoomBehaviorRef.current) return;
