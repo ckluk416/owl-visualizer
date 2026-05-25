@@ -1,0 +1,6 @@
+{
+  "name": "OWL Ontology Graph Visualizer",
+  "description": "Visualisasi interaktif graf berbasis data ontologi OWL (XML Protege) untuk penulisan dan penelusuran struktur relasi komponen, properti, dan individu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
